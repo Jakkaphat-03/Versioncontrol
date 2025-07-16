@@ -16,12 +16,12 @@
       <q-input
         filled
         type="number"
-        v-model="age"
+        v-model="อายุ"
         label="Your age *"
         lazy-rules
         :rules="[
-          val => val !== null && val !== '' || 'Please type your age',
-          val => val > 0 && val < 100 || 'Please type a real age'
+          val => val !== null && val !== '' || 'กรุณาใส่อายุของคุณ',
+          val => val > 0 && val < 100 || 'กรุณาใส่อายุจริง'
         ]"
       />
       <q-toggle v-model="accept" label="I accept the license and terms" />
