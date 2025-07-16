@@ -1,6 +1,10 @@
 <template>
   <div class="q-pa-md" style="max-width: 400px">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> thai-lang
 =======
 
 >>>>>>> thai-lang
@@ -13,23 +17,30 @@
         filled
         v-model="name"
 <<<<<<< HEAD
+<<<<<<< HEAD
         label="Your name *"
         hint="Name and surname"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']"
       />
 =======
+=======
+>>>>>>> thai-lang
         label="ชื่อ-สกุล *"
         hint="ชื่อและนามสกุล"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'กรุณาพิมพ์ชื่อ']"
       />
 
+<<<<<<< HEAD
+>>>>>>> thai-lang
+=======
 >>>>>>> thai-lang
       <q-input
         filled
         type="number"
         v-model="age"
+<<<<<<< HEAD
 <<<<<<< HEAD
         label="อายุ"
         lazy-rules
@@ -47,6 +58,8 @@
   </div>
 </template>
 =======
+=======
+>>>>>>> thai-lang
         label="อายุ *"
         lazy-rules
         :rules="[
